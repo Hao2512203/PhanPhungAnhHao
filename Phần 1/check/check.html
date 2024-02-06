@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Login</h2>
+    <form id="form">
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" oninput="emailFormat()">
+    <span id="email_error"></span>
+
+    <br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" oninput="passFormat()">
+    <span id="password_error"></span>
+
+    <br>
+
+    <input type="button" value="Login" id="submit">
+</form>
+  <script src="./check.js"></script>
+</body>
+</html>
